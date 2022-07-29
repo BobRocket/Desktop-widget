@@ -43,8 +43,10 @@ def language():
         if answer == "yes":
             lan = "chinese"
             d_name.set("更换语言")
-            e_name.set("添加日程")
+            e_name.set("待添日程")
             f_name.set("待办事件")
+            h_name.set("添加日程")
+            i_name.set("关于")
         else:
             pass
     elif lan == "chinese":
@@ -54,6 +56,8 @@ def language():
             d_name.set("language")
             e_name.set("schedule")
             f_name.set("to do event")
+            h_name.set("Add")
+            i_name.set("About")
         else:
             pass
     
