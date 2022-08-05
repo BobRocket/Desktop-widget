@@ -34,6 +34,8 @@ namespace About
             this.label4 = new System.Windows.Forms.Label();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
+            this.linkLabel3 = new System.Windows.Forms.LinkLabel();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -91,11 +93,35 @@ namespace About
             this.linkLabel2.Text = "Github";
             this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
             // 
+            // linkLabel3
+            // 
+            this.linkLabel3.AutoSize = true;
+            this.linkLabel3.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.linkLabel3.Location = new System.Drawing.Point(99, 84);
+            this.linkLabel3.Name = "linkLabel3";
+            this.linkLabel3.Size = new System.Drawing.Size(86, 25);
+            this.linkLabel3.TabIndex = 6;
+            this.linkLabel3.TabStop = true;
+            this.linkLabel3.Text = "Website";
+            this.linkLabel3.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel3_LinkClicked);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("微软雅黑", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label2.Location = new System.Drawing.Point(12, 201);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(221, 25);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "感谢一言网提供接口服务";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(308, 201);
+            this.ClientSize = new System.Drawing.Size(271, 247);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.linkLabel3);
             this.Controls.Add(this.linkLabel2);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.label4);
@@ -116,6 +142,8 @@ namespace About
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.LinkLabel linkLabel2;
+        private System.Windows.Forms.LinkLabel linkLabel3;
+        private System.Windows.Forms.Label label2;
     }
 }
 

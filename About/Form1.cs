@@ -41,5 +41,10 @@ namespace About
         {
 
         }
+
+        private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://bobrocket.github.io");
+        }
     }
 }
